@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1,p {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin: 20px;
+}
+.textbox {
+  border: black 1px solid;
+  margin: 10px;
+  width: 250px;
+}
+.container {
+  background-color: #9cfff8;
+  border:  1px solid;
+  margin: 10px;
+  width: 750px;
+  height: 750px;
+
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
 }
+.box1 {
+  background-color: #87ff7c;
+  border:  1px solid;
+  width: 250px;
+  height: 250px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
 }
